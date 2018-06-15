@@ -107,7 +107,7 @@
     <key>repository</key>
 
     <dict>
-        
+
         <!-- Action -->
         <key>action</key>
         <dict>
@@ -136,7 +136,7 @@
             <key>end</key>
             <string>\*/</string>
         </dict>
-        
+
         <key>dialogue</key>
         <dict>
             <key>name</key>
@@ -235,7 +235,7 @@
         <key>scene_headings</key>
         <dict>
             <key>match</key>
-            <string>^\s*(?i)((\.[a-z0-9ßàáâãäåæçèéêëìíîïðñòóôõöőøùúûüűýþÿабвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѡѣѥѧѩѫѭѯѱѳѵѷѹѻѽѿҁҍҏґғҕҗҙқҝҟҡңҥҧҩҫҭүұҳҵҷҹһҽҿӏӂӄӈӌӑӓӕӗәӛӝӟӡӣӥӧөӫӭӯӱӳӵӹ_]|int\.? |ext\.? |est\.? |int\.?/ext\.? |i/e|flashback)(?:|\.| )(.*?)(?&lt;!  )(#[a-z0-9ßàáâãäåæçèéêëìíîïðñòóôõöőøùúûüűýþÿабвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѡѣѥѧѩѫѭѯѱѳѵѷѹѻѽѿҁҍҏґғҕҗҙқҝҟҡңҥҧҩҫҭүұҳҵҷҹһҽҿӏӂӄӈӌӑӓӕӗәӛӝӟӡӣӥӧөӫӭӯӱӳӵӹ\-._]+#)? *$)</string>
+            <string>^\s*(?i)((\.[a-z0-9ßàáâãäåæçèéêëìíîïðñòóôõöőøùúûüűýþÿабвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѡѣѥѧѩѫѭѯѱѳѵѷѹѻѽѿҁҍҏґғҕҗҙқҝҟҡңҥҧҩҫҭүұҳҵҷҹһҽҿӏӂӄӈӌӑӓӕӗәӛӝӟӡӣӥӧөӫӭӯӱӳӵӹ_]|int\.? |ext\.? |est\.? |int\.?/ext\.? |инт\.? |нат\.? |экст\.? |инт\.?/нат\.? |инт\.?/|экст\.? |інт\.? |екст\.? |інт\.?/нат\.? |інт\.?/екст\.? |i/e|и/н|и/э|і/н|і/е|flashback|flashforward|флешбэк|флешбек|флешфорвард)(?:|\.| )(.*?)(?&lt;!  )(#[a-z0-9ßàáâãäåæçèéêëìíîïðñòóôõöőøùúûüűýþÿабвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѡѣѥѧѩѫѭѯѱѳѵѷѹѻѽѿҁҍҏґғҕҗҙқҝҟҡңҥҧҩҫҭүұҳҵҷҹһҽҿӏӂӄӈӌӑӓӕӗәӛӝӟӡӣӥӧөӫӭӯӱӳӵӹ\-._]+#)? *$)</string>
             <key>captures</key>
             <dict>
                 <key>1</key>
@@ -245,7 +245,7 @@
                 </dict>
             </dict>
         </dict>
-        
+
         <!-- Character and Scene Autocompletions -->
         <key>character_list</key>
         <dict>
@@ -364,7 +364,7 @@
                         </dict>
                     </array>
                 </dict>
-                
+
                 <!-- \* will behave appropriately and not produce text emphasis -->
                 <dict>
                     <key>name</key>
@@ -396,7 +396,7 @@
 
             </array>
         </dict>
-        
+
         <!-- Title Page -->
         <key>title_page</key>
         <dict>
@@ -456,7 +456,7 @@
             <key>name</key>
             <string>entity.name.tag</string>
             <key>match</key>
-            <string>^\s*(?i)(&gt;[A-Za-z1-9().  ]+(?!&lt;)$|[A-Za-z. ]+ to:|fade out\.|fade to black\.|fade in:)\s*</string>
+            <string>^\s*(?i)(&gt;[A-Za-z1-9().  ]+(?!&lt;)$|[A-Za-z. ]+ to:|fade out\.|fade to black\.|fade in:|(?:из |в |із |у )?зтм[.:])\s*</string>
         </dict>
 
     </dict>
