@@ -70,6 +70,13 @@ class Characters(sublime_plugin.EventListener):
                         name = name.split(' (OS)')[0]
                         name = name.split(' (VO)')[0]
                         name = name.split(" (CONT'D)")[0]
+                        name = name.split(' (ЗК)')[0]
+                        name = name.split(' (З.К.)')[0]
+                        name = name.split(' (ЗА КАДРОМ)')[0]
+                        name = name.split(' (ВПЗ)')[0]
+                        name = name.split(' (В.П.З.)')[0]
+                        name = name.split(' (ППЗ)')[0]
+                        name = name.split(' (П.П.З.)')[0]
                         if name[0] == ' ' or name[0] == '\t':
                             name = re.split(r'^\s*', name)[1]
                         if name not in self.characters and name != '' and name is not None:
@@ -172,6 +179,13 @@ class Characters(sublime_plugin.EventListener):
                             name = name.split(' (OS)')[0]
                             name = name.split(' (VO)')[0]
                             name = name.split(" (CONT'D)")[0]
+                            name = name.split(' (ЗК)')[0]
+                            name = name.split(' (З.К.)')[0]
+                            name = name.split(' (ЗА КАДРОМ)')[0]
+                            name = name.split(' (ВПЗ)')[0]
+                            name = name.split(' (В.П.З.)')[0]
+                            name = name.split(' (ППЗ)')[0]
+                            name = name.split(' (П.П.З.)')[0]
                             if name[0] == ' ' or name[0] == '\t':
                                 name = (re.split(r'^\s*', name))[1]
                             if name not in self.characters and name != '' and name is not None:
